@@ -48,4 +48,4 @@ Rotates all _individual_ tiles by given amount in degrees. Locked to 90° interv
 * Easier editing of generated mazes.
 
 ## Credits
-Example Textures for maze were provided by (Jestan)[https://opengameart.org/content/pixel-texture-pack]
+Example Textures for maze were provided by [Jestan](https://opengameart.org/content/pixel-texture-pack)
