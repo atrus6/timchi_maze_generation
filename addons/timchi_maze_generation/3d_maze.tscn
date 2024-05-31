@@ -1,7 +1,7 @@
 [gd_scene load_steps=4 format=3 uid="uid://wdbf54tdykwj"]
 
 [ext_resource type="Script" path="res://addons/timchi_maze_generation/3dmaze.gd" id="1_161ik"]
-[ext_resource type="MeshLibrary" uid="uid://c2of5rggx7uer" path="res://maze.tres" id="2_8bxq2"]
+[ext_resource type="MeshLibrary" uid="uid://c2of5rggx7uer" path="res://addons/timchi_maze_generation/assets/maze.tres" id="2_8bxq2"]
 
 [sub_resource type="NavigationMesh" id="NavigationMesh_g7jad"]
 cell_size = 0.1
