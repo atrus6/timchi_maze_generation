@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=3 uid="uid://3ikmtjyy071q"]
+
+[ext_resource type="TileSet" uid="uid://b34doa7ktfpmg" path="res://addons/timchi_maze_generation/assets/maze_2d_tileset.tres" id="1_5vhdk"]
+
+[sub_resource type="NavigationPolygon" id="NavigationPolygon_pdnw2"]
+source_geometry_group_name = &"navigation_polygon_source_group"
+
+[node name="Maze2D" type="Node2D"]
+
+[node name="Navigation" type="NavigationRegion2D" parent="."]
+navigation_polygon = SubResource("NavigationPolygon_pdnw2")
+
+[node name="TileMap" type="TileMap" parent="Navigation"]
+tile_set = ExtResource("1_5vhdk")
+format = 2
